@@ -2,6 +2,7 @@
 import { products } from '../data';
 import { useRef } from 'react';
 
+
 const ProductList = () => {
   
   const scrollContainer = useRef<HTMLDivElement>(null);
@@ -61,7 +62,7 @@ const ProductList = () => {
               }}>
           
                 <button className="absolute top-2  right-2  rounded-full flex items-center justify-center hover:scale-125  transition duration-300">
-                  <img className="" src="/icons.png"/>
+                  <img src="/Icons.png"/>
                 </button>
                 <img
                   src="/table.png"
