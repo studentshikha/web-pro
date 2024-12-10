@@ -41,7 +41,7 @@ const ProductList2 = () => {
               >
   
                 <button className="absolute top-2 right-2 w-8 h-8   rounded-full flex items-center justify-center hover:scale-125 transition duration-300">
-                <img className="" src="/icons.png"/>
+                <img className="" src="/Icons.png"/>
                 </button>
                 <img
                   src="/table.png"
