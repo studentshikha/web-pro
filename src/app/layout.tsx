@@ -14,12 +14,14 @@ const inter_init = Inter({
  weight:["400"],
  subsets:["latin"],
  variable:"--font-inter",
+ preload: true,
 });
 
 const playfair_display_init = Playfair_Display({
   weight:["400"],
   subsets:["latin"],
     variable:"--font-playfair_display",
+    preload: true
   
 })
 
@@ -28,6 +30,7 @@ const cabin_init = Cabin({
   weight:["500"],
   subsets:["latin"],
     variable:"--font-cabin",
+    preload: true,
   
 })
 

@@ -7,7 +7,7 @@ interface DescriptionProps
 const SubscribeSection: React.FC<DescriptionProps> = ({description}) => {
 
   return (
-    
+
    <div className=" rounded-lg bg-gradient-to-b from-white to-pink-50 flex flex-col md:flex-row items-center md:items-start  md:p-12 gap-6 ">
 
         {/* Image Section */}
@@ -25,7 +25,7 @@ const SubscribeSection: React.FC<DescriptionProps> = ({description}) => {
        <div className="flex-1 h-[28%] bg-pink-100 inter p-6 rounded-lg">
   
         <h2 className="text-2xl md:text-3xl  mt-4 font-semibold mb-6">
-          S'inscrire & économiser <span className="text-teal-500 hover:text-purple-500 transition-colors duration-300">
+          S&apos;inscrire & économiser <span className="text-teal-500 hover:text-purple-500 transition-colors duration-300">
             10%
           </span>
         </h2>
@@ -44,7 +44,7 @@ const SubscribeSection: React.FC<DescriptionProps> = ({description}) => {
             type="submit"
             className="bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
           >
-            S'INSCRIRE
+            S&apos;INSCRIRE
           </button>
         </form>
        </div>

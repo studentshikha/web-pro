@@ -8,7 +8,7 @@ interface ArrayProps
 
 const Header: React.FC<ArrayProps>= ({nav,array}) => {
 
-  
+
   return (
     <div>
         <div className="bg-white inter border-b border-gray-300 ">
@@ -65,8 +65,8 @@ const Header: React.FC<ArrayProps>= ({nav,array}) => {
      {/* navigation links */}
       <div className="bg-white mt-2">
         <div className="container mx-auto py-2 px-4 flex flex-wrap justify-between text-sm text-[#6B7280]" >
-         {array.map((item)=>
-         <a href="#" className="hover:text-[#0093D0]  font-medium relative group uppercase"
+         {array.map((item,i)=>
+         <a key={i} href="#" className="hover:text-[#0093D0]  font-medium relative group uppercase"
          >{item} <span className=" absolute left-0 -bottom-2 w-0 h-0.5 bg-[#0093D0] transition-all duration-300 group-hover:w-full"></span>
          </a>
         )}

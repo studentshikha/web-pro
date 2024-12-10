@@ -28,7 +28,7 @@ const Footer = () => {
                 Livraisons & Reprises
               </li>
               <li className="hover:text-teal-500 transition-colors">
-                Mode d'emploi
+                Mode d&apos;emploi
               </li>
               <li className="hover:text-teal-500 transition-colors">F.A.Q</li>
             </ul>
@@ -55,7 +55,7 @@ const Footer = () => {
                 Accéder à mon compte
               </li>
               <li className="hover:text-teal-500 transition-colors">
-                Ma liste d'envie
+                Ma liste d&apos;envie
               </li>
               <li className="hover:text-teal-500 transition-colors">
                 Créer un compte
